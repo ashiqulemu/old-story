@@ -6761,3 +6761,10 @@ ul[class*="woocommerce-"] li:before {
 .woocommerce-checkout #payment ul.payment_methods li img {
     margin-right: 1em;
 }
+
+
+/* custom css */
+
+.tparrows{
+	display: none!important;
+}
