@@ -425,11 +425,11 @@ Apple iPod Touch (5th generation)
     }
 
     .open_child_menu {
-        top: 0.3em;
+        top: 0.2em;
     }
 
     .menu_pushy_nav_area li.menu-item-has-children > a > .open_child_menu {
-        right: 1.4em;
+        right: 1.2em;
     }
 
     .top_panel_inner_style_8 .menu_pushy_button {

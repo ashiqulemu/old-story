@@ -36,7 +36,7 @@
 /* 1. Theme typography
 -------------------------------------------------------------- */
 body {
-  font-family: "Tinos", serif;
+  
   font-size: 18px;
   line-height: 1.5556em;
   font-weight: 400;
@@ -55,51 +55,51 @@ body {
   color: #606060;
 }
 h1 {
-  font-family: "Sancreek", cursive;
+  font-family:'FMBolyarPro-900',sans-serif;
   font-size: 3.889em;
   line-height: 1.3em;
-  font-weight: 400;
+  font-weight: bold;
   margin-top: 0.5em;
   margin-bottom: 0.3em;
 }
 h2 {
-  font-family: "Sancreek", cursive;
+  font-family:'FMBolyarPro-900',sans-serif;
   font-size: 1.667em;
   line-height: 1.3em;
-  font-weight: 400;
+  font-weight: bold;
   margin-top: 0.7em;
   margin-bottom: 1em;
 }
 h3 {
-  font-family: "Tinos", serif;
+  font-family:'FMBolyarPro-900',sans-serif;
   font-size: 1.389em;
   line-height: 1.4em;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 1.25em;
   margin-bottom: 1.4em;
 }
 h4 {
-  font-family: "Sancreek", cursive;
+  font-family:'FMBolyarPro-900',sans-serif;
   font-size: 1.2222em;
   line-height: 1.3em;
-  font-weight: 400;
+  font-weight: bold;
   margin-top: 1.6em;
   margin-bottom: 1.75em;
 }
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-900',sans-serif;
   font-size: 0.778em;
   line-height: 1.3em;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 2.7em;
   margin-bottom: 2.85em;
   letter-spacing: 1.1px;
 }
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-900',sans-serif;
   font-size: 0.7778em;
   line-height: 1.3em;
-  font-weight: 700;
+  font-weight: bold;
   margin-top: 2.85em;
   margin-bottom: 2.85em;
 }
@@ -2441,7 +2441,7 @@ textarea {
   background-color: #f29200;
 }
 .menu_main_nav > li ul {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-100', sans-serif ;
   font-size: 12px;
   line-height: 1.2857em;
   font-weight: 700;
@@ -5164,7 +5164,7 @@ textarea {
 }
 .sidebar_outer_menu .menu_side_nav > li ul,
 .sidebar_outer_menu .menu_side_responsive > li ul {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-100', sans-serif ;
   font-size: 12px;
   line-height: 1.2857em;
   font-weight: 700;
@@ -8794,10 +8794,10 @@ textarea {
 .booking_font_custom,
 .booking_day_container,
 .booking_calendar_container_all {
-  font-family: "Tinos", serif;
+  font-family:'FMBolyarPro-100', sans-serif ;
 }
 .booking_weekdays_custom {
-  font-family: "Sancreek", cursive;
+  font-family:'FMBolyarPro-100', sans-serif ;
 }
 .scheme_original .booking_month_container_custom,
 .scheme_original .booking_month_navigation_button_custom {
@@ -9282,7 +9282,7 @@ ul.tribe-events-sub-nav a,
 #tribe-events .tribe-events-button,
 #tribe-bar-form .tribe-bar-submit input[type=submit],
 .sc_button {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-100', sans-serif ;
   font-size: 0.6667em;
   line-height: 1.2857em;
   font-weight: 700;
@@ -11692,13 +11692,13 @@ ul.tribe-events-sub-nav a:hover,
   background-color: #f1f1f1;
 }
 .sc_recent_news .post_item .post_title {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-100', sans-serif ;
   font-size: 0.778em;
   line-height: 1.3em;
   font-weight: 700;
 }
 .sc_recent_news .post_item h6.post_title {
-  font-family: "Montserrat", sans-serif;
+  font-family:'FMBolyarPro-100', sans-serif ;
   font-size: 0.7778em;
   line-height: 1.3em;
   font-weight: 700;
