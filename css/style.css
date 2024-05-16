@@ -6780,3 +6780,8 @@ ul[class*="woocommerce-"] li:before {
 .tparrows{
 	display: none!important;
 }
+
+
+.slotholder{
+	height: 80%!important;
+}
