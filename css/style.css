@@ -56,12 +56,12 @@ Text Domain: oldstory
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700); */
 
 @font-face {
-	font-family:'FMBolyarPro-100', sans-serif ;
+	font-family:'FMBolyarPro-100';
 	src: url('./fontello/font/FMBolyarPro-100.ttf');
 }
 
 @font-face {
-	font-family:'FMBolyarPro-900', sans-serif ;
+	font-family:'FMBolyarPro-900';
 	src: url('./fontello/font/FMBolyarPro-900.ttf');
 }
 
@@ -102,7 +102,7 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-	font-family:'FMBolyarPro-100', sans-serif ;
+	font-family:'FMBolyarPro-100', sans-serif!important ;
 				/* Commented, because it conflict with overflow-x: hidden - appear second scrollbar while tooltip is display in the Booked plugin */
 }
 
@@ -6784,4 +6784,27 @@ ul[class*="woocommerce-"] li:before {
 
 .slotholder{
 	height: 80%!important;
+}
+
+.title-main{
+	text-align: center;
+    font-size: 11vw;
+    margin-top: -63px;
+    margin-bottom: 63px;
+    font-weight: bold;
+	font-family:'FMBolyarPro-900';
+	margin-bottom: 50px;
+}
+
+.sub-title{
+	text-align: center;
+	font-size: 6vw;
+}
+
+.item-list{ 
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 600;
+	font-family:'FMBolyarPro-100';
 }
