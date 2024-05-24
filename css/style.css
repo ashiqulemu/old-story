@@ -6809,8 +6809,15 @@ ul[class*="woocommerce-"] li:before {
 	font-family:'FMBolyarPro-100';
 }
 
+.custom-space{
+	margin-top: -110px;
+}
+
 @media(max-width:650px){
 	.title-main{
 		margin-top: 0;
+	}
+	.custom-space{
+		margin-top: -50px;
 	}
 }
