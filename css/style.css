@@ -6798,7 +6798,8 @@ ul[class*="woocommerce-"] li:before {
 
 .sub-title{
 	text-align: center;
-	font-size: 6vw;
+    font-size: 36px;
+    text-decoration: underline;
 }
 
 .item-list{ 
@@ -6807,4 +6808,10 @@ ul[class*="woocommerce-"] li:before {
     text-align: center;
     font-weight: 600;
 	font-family:'FMBolyarPro-100';
+}
+
+@media(max-width:650px){
+	.title-main{
+		margin-top: 0;
+	}
 }
