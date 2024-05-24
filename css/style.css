@@ -2408,8 +2408,7 @@ li.opened > a > .open_child_menu:before {
 .menu_pushy_nav > li ul li a {
     position:relative;
     display:inline-block;
-    padding:0 ;
-    font-family: Montserrat, sans-serif;
+    padding:0 ; 
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
