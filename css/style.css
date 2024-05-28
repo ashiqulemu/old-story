@@ -6821,3 +6821,22 @@ ul[class*="woocommerce-"] li:before {
 		margin-top: -50px;
 	}
 }
+
+.menu-container{
+ display: flex;
+ flex-direction: column;
+ max-width: 82%;
+ margin: 0 auto;
+}
+
+.menu-container .items {
+	border: 5px solid #BD8951;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.menu-container .items img{
+width: 100%;
+height: auto;
+}
