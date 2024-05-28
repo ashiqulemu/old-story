@@ -6901,3 +6901,81 @@ height: auto;
     color: #000000;
     margin-bottom: 38px; 
 }
+
+
+@media(max-width:768px){
+	.link-bar{
+		left: 0;
+        right: 0;
+        bottom: 40px;
+	}
+	.link-bar a{
+		padding: 4px; 
+		font-size: 12px;
+	}
+}
+
+@media(min-width:601px)and (max-width:767px){
+	.link-bar{
+		left: 0;
+        right: 0;
+        bottom: 26px;
+	}
+	.link-bar a{
+		padding: 4px; 
+		font-size: 12px;
+	}
+}
+
+
+
+@media(max-width:600px){
+	.link-bar{
+		left: 0;
+        right: 0;
+        bottom: 27px;
+	}
+	.link-bar a{
+		padding: 4px; 
+		font-size: 12px;
+	}
+}
+
+
+@media(min-width:426px)and (max-width:599px){
+	.link-bar{
+		left: 0;
+        right: 0;
+        bottom: 19px;
+	}
+	.link-bar a{
+		padding: 4px; 
+		font-size: 12px;
+	}
+}
+
+
+@media(max-width:425px){
+	.link-bar{
+		left: 0;
+        right: 0;
+        bottom: 18px;
+		 
+	}
+	.link-bar a{
+		padding: 1px 4px;
+        font-size: 10px;
+	}
+}
+@media(max-width:375px){
+	.link-bar{
+		left: 0;
+        right: 0;
+        bottom: 13px;
+		 
+	}
+	.link-bar a{
+		padding: 1px 4px;
+        font-size: 8px;
+	}
+}
