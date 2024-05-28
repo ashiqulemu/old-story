@@ -6888,12 +6888,14 @@ height: auto;
 .txt-center{
 	text-align: center;
 }
+
 .form-title{
 	text-align: center;
 	font-size: 35px;
 	color: #BD8951;
 	font-weight: bolder;
 	margin-bottom: 11px;
+	line-height: 1;
 }
 .sub-form-title{
 	text-align: center;
@@ -6904,6 +6906,9 @@ height: auto;
 
 
 @media(max-width:768px){
+	.form-rows{
+		flex-direction: column;
+	}
 	.link-bar{
 		left: 0;
         right: 0;
@@ -6938,6 +6943,16 @@ height: auto;
 	.link-bar a{
 		padding: 4px; 
 		font-size: 12px;
+	}
+
+	.icon-menu:before {
+		content: '\e8ba';
+		background: #bd8951;
+		padding: 6px 10px;
+		color: #fff;
+	}
+	.top_panel_over .header_mobile .menu_button{
+		top: 1.3em !important;;
 	}
 }
 
