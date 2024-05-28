@@ -6834,9 +6834,70 @@ ul[class*="woocommerce-"] li:before {
     margin-bottom: 15px;
     border-radius: 9px;
     overflow: hidden;
+	position: relative;
 }
 
 .menu-container .items img{
 width: 100%;
 height: auto;
+}
+.link-bar{
+	position: absolute;
+    left: 51px;
+    /* right: 15px; */
+    bottom: 71px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 0; */
+    /* padding: 12px 22px; */
+    margin: 0 auto;
+    width: 92.4%; 
+    
+}
+.link-bar a{
+	color: #fff!important;
+	font-weight: bold;
+	text-align: center;
+	background: #bd8951;
+	padding: 13px 18px;
+}
+
+.contact-section-box{
+	background-color: #E6E5E6;
+	padding: 50px 15px;
+}
+
+.form-rows{
+	display: flex;
+	gap: 15px;
+	margin-bottom: 15px;
+}
+
+.form-rows .cols{
+	flex: 1;
+}
+
+.form-rows .cols{
+	flex: 1;
+}
+
+.form-rows .cols input,textarea{
+	width: 100%;
+	background: #fff;
+}
+.txt-center{
+	text-align: center;
+}
+.form-title{
+	text-align: center;
+	font-size: 35px;
+	color: #BD8951;
+	font-weight: bolder;
+	margin-bottom: 11px;
+}
+.sub-form-title{
+	text-align: center;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 38px; 
 }
